@@ -28,7 +28,7 @@ void setup()
   Muses.setVolume(CurrentVolume);
 
   // These are the default states and could be removed...
-  Muses.setZeroCrossing(true);     // Enable/Disable zero crossing.
+  Muses.setZeroCrossing(true);     // Enable zero cross detection. (only if Z/C terminal pin 32 is low)
   Muses.setAttenuationLink(false); // L/R attentuation channels are independent controlled.
   Muses.setGainLink(false);        // L/R gain channels are independent controlled.
 }
